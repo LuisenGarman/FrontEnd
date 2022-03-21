@@ -1,0 +1,329 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  .clearfix {
+    float: none;
+    clear: both;
+  }
+  
+  .menu {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Recursos/header.png);
+    background-size: 100%;
+  }
+  .logo {
+    display: block;
+    float: left;
+    padding: 40px;
+    color: #2949c6;
+    text-align: left;
+    min-width: 15%;
+    min-height: 100%;
+  }
+  
+  #submenu ul li {
+    display: block;
+    float: right;
+    padding: 40px;
+    font-size: 15px;
+  }
+  #submenu ul li a {
+    color: #7a889e;
+    font-weight: 550px;
+  }
+  .bot {
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .bot:hover {
+    background-color: #2949c6;
+    color: #fff !important;
+  }
+  .boton {
+    background-color: #EEF3FF;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    color: #2949c6;
+    font-size: 11px;
+  }
+  .boton:hover{
+    color: white;
+    background-color: #2949c6;
+  }
+  .info__{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .info__ > p {
+    font-size: 10px;
+  }
+  .caja1 {
+    display: block;
+    float: left;
+    min-width: 50%;
+    min-height: 800px;
+    max-width: 50%;
+    max-height: 55px;
+    text-align: center;
+  }
+  #titulo {
+    padding: 50px;
+    font-size: 70px;
+    color: #1f3e72;
+  }
+  #informacion-vaciuna {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    font-size: 25px;
+    color: #7e8a9f;
+  }
+  #enfermera {
+    background-image: url(./Recursos/enfermera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5a91dc;
+  }
+  .time {
+    display: block;
+    float: left;
+    max-width: 250px;
+    margin: 0px;
+    padding-top: 25%;
+    padding-left: 15px;
+  }
+  #reloj {
+    padding: 5px;
+  }
+  .escudo {
+    display: block;
+    float: left;
+    max-width: 300 px;
+    margin: 0px auto;
+    padding-top: 60px;
+    text-align: center;
+  }
+  #esc,
+  #est {
+    width: 10px;
+    padding: 4px;
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+  .bloque21 {
+    display: block;
+    float: left;
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 700px;
+  }
+  .bloque1 {
+    position: relative;
+  }
+  #ventanaf {
+    position: absolute;
+    left: 60px;
+    top: 820px;
+    z-index: 3;
+    min-width: 60%;
+    min-height: 110px;
+    background-image: url(./Recursos/Imagen2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+    box-shadow: 2px 2px 5px #dee9f9;
+  }
+  #foot {
+    background-image: url(./Recursos/foot.png);
+    min-height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  /* Estilos tarjeteros */
+  
+  .tarjetero__divs {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tarjeta {
+    /* display: block;
+    float: left; */
+    width: 15%;
+    height: 250px;
+    padding: 15px;
+    margin: 40px;
+    background-color: #fff;
+    border-radius: 3%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarjeta:hover {
+    box-shadow: 2px 2px 5px #dee9f9;
+    background-color: #e7effb;
+  }
+  
+  .tittar {
+    padding: 25px 0px;
+  }
+  
+  .bloque2 {
+    background: red;
+    display: flex;
+  }
+  
+  .tar {
+    background-color: #f1f5ff;
+    padding: 5px;
+    border-radius: 25%;
+  }
+  
+  .tittle_tarjets > h2 {
+    margin-left: 120px;
+    color: #1f3e72;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .tittle_tarjets > p {
+    margin-left: 120px;
+    margin-bottom: 60px;
+    color: #9ca6b6;
+  }
+  
+  /* Preparations before vaccine */
+  .bloque_dos__vaccine {
+    display: block;
+    float: left;
+    max-width: 50%;
+    min-width: 50%;
+    padding: 30px 0px;
+    min-height: 750px;
+  }
+  #enfermera2 {
+    background-image: url(./Recursos/enfermera2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .tar2,
+  .flecha {
+    background-color: #f1f5ff;
+    padding: 3px;
+    border-radius: 25%;
+  }
+  .tar2,
+  .tittar2 {
+    display: block;
+    float: left;
+  }
+  .bloque_dos__icons {
+    padding: 25px;
+    margin: 10px;
+  }
+  .bloque_dos__icons:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #e7effb;
+    border-radius: 2%;
+  }
+  .flecha {
+    display: block;
+    float: right;
+  }
+  #pbv {
+    color: #1f3e72;
+    margin: 10px;
+    padding: 10px;
+  }
+  #pbv2 {
+    color: #8b97a9;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #enfermero {
+    background-image: url(./Recursos/enfermero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 50%;
+    min-width: 50%;
+  }
+  
+  /* .emergency__sections {
+    padding-top: 100px;
+    display: flex;
+    max-width: 50%;
+    min-width: 50%;
+    /* display: block;
+    float: left; */
+  
+  .emergency_tarjets{
+  display: block;
+  float: left;
+  max-width: 50%;
+  min-width: 50%;
+  height: 800px;
+  background-color: #fff;
+  }
+  
+  .tarjets_info {
+    display: block;
+    float: left;
+    width: 125px;
+    height: 115px;
+    margin: 15px;
+    padding: 5%;
+    margin-left: 70px;
+    background-color: #fff;
+    border-radius: 3%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .tarjets_info_dos{
+    margin-top: 30%;
+  }
+  
+  .info__ > h4{
+  color: #294778;
+  }
+  
+  
+  footer{
+    background-color: #EEF3FF;
+    color: #75829A;
+  }
+  .titulo_footer {
+    color: #2F4FCD !important;
+  }
+  .tarjetas-footer {
+    display: block;
+    float: left;
+    max-width: 300px;
+    padding: 15px;
+    margin-left: 7%;
+    margin-top: 80px;
+  }
+  
+  .tarjetas-footer>ul>li{
+    list-style: none;
+  }
+  #tarjetaf1{
+    margin-right: 15%;
+  }
+  .terminos{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer__container{
+    margin-top: 80px;
+  }
+  
+  

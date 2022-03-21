@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    background-image: url("./Recursos/banner\ vaccine.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width:1400px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+
+.banner2{
+    height: 1144px;
+    width:200px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-image: url("./Recursos/banner2.png");
+    background-size:contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.texto{
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+a.link{
+    left: 47.5%;
+    cursor:pointer;
+
+  }
+
+  .texto2{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+}
+
+.texto3{
+    position: absolute;
+    top: 42%;
+    left: 12%;
+}
+
+.titulo2{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+a.link2{
+    left: 30%;
+    top: 60%;
+}
